@@ -7,6 +7,11 @@
     Returns:
         total length of strings
 */
+
+func(String s1, String s2){
+  return s1.length + s2.length;
+}
 void main() {
   // write your code here
+  print(func('code', 'dart'));
 }
