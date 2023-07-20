@@ -7,6 +7,15 @@
     Returns:
         str: answer
 */
+func(String s){
+  int a = s.length;
+  if (a%2==1) {
+    return s[a~/2];
+  } else if(a%2==0){
+    return s[a~/2-1]+s[a~/2];
+  } 
+}
 void main() {
   // write your code here
+  print(func('asdfe'));
 }
