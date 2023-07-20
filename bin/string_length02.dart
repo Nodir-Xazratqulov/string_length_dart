@@ -6,6 +6,13 @@
     Returns:
         True or False
      */
+
+
+func(String text){
+  return text.length%2==0;
+}
 void main() {
   // write your code here
+  print(func('code'));
 }
+
