@@ -7,6 +7,18 @@
     Returns:
         string
 */
+
+func(String s1, String s2){
+  int a = s1.length;
+  int b = s2.length;
+  if (a%2==0) {
+    return s1;
+  } 
+  if (b%2==0) {
+    return s2;
+  }
+}
 void main() {
   // write your code here
+  print(func('code', 'coder'));
 }
