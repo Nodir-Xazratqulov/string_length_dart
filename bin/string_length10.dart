@@ -6,7 +6,12 @@
     Returns:
         bool: answer
 */
+func(String s){
+  return s.toUpperCase();
+}
+
 
 void main() {
   // write your code here
+  print(func('dart'));
 }
