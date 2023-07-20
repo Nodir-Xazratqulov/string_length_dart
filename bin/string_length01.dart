@@ -6,6 +6,11 @@
     Returns:
         length of string */
 
+
+func(String text){
+  return text.length;
+}
 void main() {
   // write your code here
+  print(func('python'));
 }
