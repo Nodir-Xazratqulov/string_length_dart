@@ -6,6 +6,12 @@
     Returns:
         string
 */
+
+func(String s){
+  return '*'.padLeft(s.length, '*');
+}
+
 void main() {
   // write your code here
+  print(func('code'));
 }
